@@ -1,8 +1,8 @@
-#MULTI-TUBULAR MEMBRANE REACTOR
+# MULTI-TUBULAR MEMBRANE REACTOR
 
 This program calculates the performance of a multi-tubular membrane reactor based on given parameters. The reactor consists of multiple tubes, and gas flows through these tubes while undergoing reactions and heat transfer.
 
-##PARAMETERS:
+## PARAMETERS:
 
 * R: Gas constant [J/(mol K)]
 * P_0: Inlet pressure [Pa]
@@ -13,7 +13,7 @@ This program calculates the performance of a multi-tubular membrane reactor base
 * eps_mem: Membrane porosity
 * T_max: Maximum allowable temperature [K]
 
-##CALCULATED PARAMETERS:
+## CALCULATED PARAMETERS:
 
 * A_i: Inner area of tubes [m^2]
 * V_bed: Bed volume [m^3]
@@ -24,7 +24,7 @@ This program calculates the performance of a multi-tubular membrane reactor base
 * u_gas: Gas velocity [m/s]
 * u_mem: Membrane velocity [m/s]
 
-##LOOP VARIABLES:
+## LOOP VARIABLES:
 
 * i: Loop variable for iterating through tubes
 * x: Position in the tube [m]
